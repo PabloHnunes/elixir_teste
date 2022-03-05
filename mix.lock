@@ -1,0 +1,6 @@
+%{
+  "crontab": {:hex, :crontab, "1.1.11", "4028ced51b813a5061f85b689d4391ef0c27550c8ab09aaf139e4295c3d93ea4", [:mix], [{:ecto, "~> 1.0 or ~> 2.0 or ~> 3.0", [hex: :ecto, repo: "hexpm", optional: true]}], "hexpm", "ecb045f9ac14a3e2990e54368f70cdb6e2f2abafc5bc329d6c31f0c74b653787"},
+  "gen_stage": {:hex, :gen_stage, "1.1.2", "b1656cd4ba431ed02c5656fe10cb5423820847113a07218da68eae5d6a260c23", [:mix], [], "hexpm", "9e39af23140f704e2b07a3e29d8f05fd21c2aaf4088ff43cb82be4b9e3148d02"},
+  "quantum": {:hex, :quantum, "3.4.0", "5a53c3c52b0d55f2323940232ba6ab4c98e7e14c73dfacbba3a1ed799b037ce5", [:mix], [{:crontab, "~> 1.1", [hex: :crontab, repo: "hexpm", optional: false]}, {:gen_stage, "~> 0.14 or ~> 1.0", [hex: :gen_stage, repo: "hexpm", optional: false]}, {:telemetry, "~> 0.4.3 or ~> 1.0.0", [hex: :telemetry, repo: "hexpm", optional: false]}], "hexpm", "d0eb64957d3dc49c8ed730cc2203108334226496535965b8dfa3f3dbcf430f87"},
+  "telemetry": {:hex, :telemetry, "1.0.0", "0f453a102cdf13d506b7c0ab158324c337c41f1cc7548f0bc0e130bbf0ae9452", [:rebar3], [], "hexpm", "73bc09fa59b4a0284efb4624335583c528e07ec9ae76aca96ea0673850aec57a"},
+}
